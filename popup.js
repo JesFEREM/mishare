@@ -16,7 +16,7 @@ window.addEventListener('load', function () {
         name = tab.title;
         url = tab.url;
 
-        inputbox.innerHTML = name + '\n' + url;
+        inputbox.innerHTML = [name] + (url);
     });
 
     var add_instance_button = document.getElementById('add_instance_button');
